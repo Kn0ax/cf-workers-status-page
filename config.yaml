@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: i-kn0ax-de # unique identifier
     name: i.kn0ax.de
-    description: 'Gereksiz birisinin imagehost'u ' # default=empty
+    description: 'Gereksiz birisinin imagehostu' # default=empty
     url: 'https://i.kn0ax.de/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
