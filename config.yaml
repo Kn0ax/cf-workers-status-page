@@ -31,4 +31,11 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-
+    
+  - id: hizlisubol-com
+    name: www.hizlisubol.com
+    description: 'twitch yayincilarina 10 tl vermeye '
+    url: 'https://hizlisubol.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
