@@ -39,3 +39,12 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+    
+   - id: Kn0axs-CDN
+    name: 'CDN'
+    description: 'Built for anything connected to the Internet.'
+    url: 'cdn.kn0ax.com'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
+    
