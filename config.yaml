@@ -15,15 +15,32 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: i-kn0ax-de # unique identifier
-    name: i.kn0ax.de
-    description: 'Gereksiz birisinin imagehostu' # default=empty
-    url: 'https://i.kn0ax.de/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+  #- id: i-kn0ax-de # unique identifier
+   # name: i.kn0ax.de
+   # description: 'Gereksiz birisinin imagehostu' # default=empty
+   # url: 'https://i.kn0ax.de/' # URL to fetch
+    #method: GET # default=GET
+    #expectStatus: 200 # operational status, default=200
+    #followRedirect: false # should fetch follow redirects, default=false
+    #linkable: false # allows the title to be a link, default=true
 
+
+  #- id: hizlisubol-com #rip
+  #  name: www.hizlisubol.com
+  #  description: 'twitch yayincilarina 10 tl vermeye '
+  #  url: 'https://hizlisubol.com'
+  #  method: GET
+  #  expectStatus: 200
+  #  linkable: true # allows the title to be a link, default=true
+    
+   - id: Kn0axs-CDN
+    name: 'CDN'
+    description: 'just hosting my things'
+    url: 'cdn.kn0ax.com'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
+ 
   - id: www-tengigabit-me
     name: www.tengigabit.me
     description: 'internet abiye fun project.'
@@ -32,19 +49,4 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
     
-  - id: hizlisubol-com
-    name: www.hizlisubol.com
-    description: 'twitch yayincilarina 10 tl vermeye '
-    url: 'https://hizlisubol.com'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-    
-   - id: Kn0axs-CDN
-    name: 'CDN'
-    description: 'Built for anything connected to the Internet.'
-    url: 'cdn.kn0ax.com'
-    method: GET
-    expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
     
